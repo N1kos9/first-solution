@@ -116,7 +116,7 @@ const ProductDetails = ({ product, products }) => {
 
             <div>
               <div className="text-lg font-bold mb-5 mt-10">
-                Recipe and preparation
+                Ingredients and Description
               </div>
 
               <div className="markdown text-md mb-5">

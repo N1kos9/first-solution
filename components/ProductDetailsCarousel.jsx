@@ -9,14 +9,14 @@ const ProductDetailsCarousel = ({ images }) => {
         showIndicators={false}
         showStatus={false}
         thumbWidth={60}
-        className="productCarousel text-center"
+        className="productCarousel text-center justify-center flex w-3/5 lg:w-full items-center"
       >
         {images.map((img) => (
           <img
             src={img.attributes.url}
             key={img.id}
             alt={img.attributes.name}
-            className="w-full"
+            className=""
           />
         ))}
       </Carousel>

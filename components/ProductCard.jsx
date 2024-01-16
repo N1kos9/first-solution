@@ -10,11 +10,11 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
     >
       <div className="duration-500 group-hover:rotate-90 flex items-center justify-center">
         <Image
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           src={p.thumbnail.data.attributes.url}
           alt={p.name}
-          className="w-max"
+          className="w-full"
         />
       </div>
       <div className="p-4 text-black/[0.9] items-start">

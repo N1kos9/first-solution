@@ -39,7 +39,7 @@ const CartItem = ({ data }) => {
           </div>
 
           <div className="text-sm md:text-md font-bold text-black/[0.5] mt-2">
-            Euro : ${p.price}
+            Per item : ${p.price}
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const CartItem = ({ data }) => {
             </div>
 
             <div className="flex items-center gap-1">
-              <div className="font-semibold">Per item:</div>
+              <div className="font-semibold">quantity:</div>
               <select
                 name=""
                 className="hover:text-black"
